@@ -1,5 +1,5 @@
 # created by ktouch2typ.pl from /home/mvitolin/tmp/gtypist/tools/../mylessons/c1.ktouch
-# on Thu Aug  2 11:11:20 EEST 2018
+# on Mon Aug  6 08:16:30 EEST 2018
 # ktouch2typ.pl is part of gtypist (http://www.gnu.org/software/gtypist/)
 # ktouch can be found at http://ktouch.sourceforge.net
 # If you have suggestions about these lessons,
@@ -30,6 +30,8 @@ B:                        Lesson 2: Lesson 2
 I:(1)
 D:-ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls
  :l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=-
+ :() () () () () () () () () () () () () () () () () () () () () () () () () ()
+ :;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90
 G:E_LESSON2
 
 
