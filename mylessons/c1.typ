@@ -1,5 +1,5 @@
-# created by ktouch2typ.pl from /home/mvitolin/tmp/gtypist/tools/../mylessons/c1.ktouch
-# on Mon Aug  6 08:16:30 EEST 2018
+# created by ktouch2typ.pl from /home/mvitolin/projects/gtypist/tools/../mylessons/c1.ktouch
+# on Mon Aug  6 11:48:05 EEST 2018
 # ktouch2typ.pl is part of gtypist (http://www.gnu.org/software/gtypist/)
 # ktouch can be found at http://ktouch.sourceforge.net
 # If you have suggestions about these lessons,
@@ -31,8 +31,20 @@ I:(1)
 D:-ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls -ls
  :l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=- l=-
  :() () () () () () () () () () () () () () () () () () () () () () () () () ()
- :;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90
+ :l9;0 l9;0 l9;0 l9;0 l9;0 l9;0 l9;0 l9;0 l9;0 l9;0 l9;0 l9;0 l9;0 l9;0 l9;0 l9;0
+*:LESSON2_D2
+I:(2)
+D:;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90 ;90
 G:E_LESSON2
+
+*:S_LESSON3
+K:12:MENU
+B:               Lesson 3: Lesson 3 - more digits 890
+*:LESSON3_D1
+I:(1)
+D:k*l(;) k*l(;) k*l(;) k*l(;) k*l(;) k*l(;) k*l(;) k*l(;) k*l(;) k*l(;) k*l(;)
+ :;)l(k* ;)l(k* ;)l(k* ;)l(k* ;)l(k* ;)l(k* ;)l(k* ;)l(k* ;)l(k* ;)l(k* ;)l(k* 
+G:E_LESSON3
 
 
 # jump-table
@@ -41,9 +53,14 @@ Q: Do you want to continue to lesson 2 [Y/N] ?
 N:MENU
 G:S_LESSON2
 *:E_LESSON2
+Q: Do you want to continue to lesson 3 [Y/N] ?
+N:MENU
+G:S_LESSON3
+*:E_LESSON3
 G:MENU
 
 *:MENU
 M: "ktouch lesson (../mylessons/c1.ktouch)"
  :S_LESSON1 "Lesson 1"
  :S_LESSON2 "Lesson 2"
+ :S_LESSON3 "Lesson 3 - more digits 890"
