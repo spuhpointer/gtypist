@@ -1,2 +1,2 @@
 all:
-	cd ../tools && ./ktouchOLD2typ.pl ../mylessons/*.ktouch
+	cd ../tools && PERL5LIB=./ ./ktouchOLD2typ.pl ../mylessons/*.ktouch
