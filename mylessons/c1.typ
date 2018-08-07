@@ -1,5 +1,5 @@
 # created by ktouch2typ.pl from /home/mvitolin/projects/gtypist/tools/../mylessons/c1.ktouch
-# on Mon Aug  6 16:41:26 EEST 2018
+# on Tue Aug  7 10:51:03 EEST 2018
 # ktouch2typ.pl is part of gtypist (http://www.gnu.org/software/gtypist/)
 # ktouch can be found at http://ktouch.sourceforge.net
 # If you have suggestions about these lessons,
@@ -56,6 +56,17 @@ D:j7k8l9;0 l-l=l jmk,l.;/ j7k8l9;0 l-l=l jmk,l.;/ j7k8l9;0 l-l=l jmk,l.;/
  :j7k8l9;0 l-l=l jmk,l.;/ j7k8l9;0 l-l=l jmk,l.;/ j7k8l9;0 l-l=l jmk,l.;/ 
 G:E_LESSON4
 
+*:S_LESSON5
+K:12:MENU
+B:                     Lesson 5: Lesson 5 digits
+*:LESSON5_D1
+I:(1)
+D:a1s2d3f4g5 h6j7k8l9;0 a1s2d3f4g5 h6j7k8l9;0 a1s2d3f4g5 h6j7k8l9;0 a1s2d3f4g5 h6j7k8l9;0 
+ :h6j7k8l9;0 a1s2d3f4g5 h6j7k8l9;0 a1s2d3f4g5 h6j7k8l9;0 a1s2d3f4g5 h6j7k8l9;0 
+ :;0l9k8j7h6 g5f4d3s2a1 ;0l9k8j7h6 g5f4d3s2a1 ;0l9k8j7h6 g5f4d3s2a1 ;0l9k8j7h6 g5f4d3s2a1 
+ :g5f4d3s2a1 ;0l9k8j7h6 g5f4d3s2a1 ;0l9k8j7h6 g5f4d3s2a1 ;0l9k8j7h6 g5f4d3s2a1 
+G:E_LESSON5
+
 
 # jump-table
 *:E_LESSON1
@@ -71,6 +82,10 @@ Q: Do you want to continue to lesson 4 [Y/N] ?
 N:MENU
 G:S_LESSON4
 *:E_LESSON4
+Q: Do you want to continue to lesson 5 [Y/N] ?
+N:MENU
+G:S_LESSON5
+*:E_LESSON5
 G:MENU
 
 *:MENU
@@ -79,3 +94,4 @@ M: "ktouch lesson (../mylessons/c1.ktouch)"
  :S_LESSON2 "Lesson 2"
  :S_LESSON3 "Lesson 3 - more digits 890"
  :S_LESSON4 "Lesson 4 - in the row j7k8l9;0jmk,l.;/^C"
+ :S_LESSON5 "Lesson 5 digits"
